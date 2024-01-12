@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 500px;
+    /* background-color: aqua; */
+    margin: 50px auto;
+    /* transition: all 5s ease-in-out; */
+    /* animation: animate 2s ; */
+}
+/* @keyframes animate {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(40%);
+    }
+    100%{
+        transform: translateX(80%);
+    }
+} */
+.item1{
+    transition: all 1s ease-in-out;
+    z-index: 1;
+    /* transition: all 1s; */
+    border-radius: 5px;
+}
+.card1{
+    display: block;
+    border-radius: 2px;
+    box-shadow: 1px 1px 11px 0px grey;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    /* transition: all 1s; */
+}
+.card2{
+    /* animation: animate 2s linear; */
+    display: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 11px 0px grey;
+    width: 300px;
+    height: 480px;
+    background-color: rgb(255, 255, 255);
+    /* transition: all 1s; */
+}
+.l-1{
+    font-size: 1.7rem;
+    font-weight: 900;
+    padding: 30px 25px;
+}
+button img{
+    width: 21px;
+}
+/* input{
+    border: none;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.518) ;
+    padding: 5px;
+    margin: 10px 30px;
+    outline: none; 
+} */
+.f1 input {
+    border: none;
+    /* border-bottom: 1.5px solid rgba(128, 128, 128, 0.518) ; */
+    padding: 5px;
+    /* margin: 10px 30px; */
+    outline: none; 
+}
+
+.f1{
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.518) ;
+    /* padding: 5px; */
+    margin: 10px 30px;
+}
+
+.f1-alt{
+    border-bottom: 1.5px solid #007bff;
+    /* padding: 5px; */
+    margin: 10px 30px;
+    color: #007bff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+/* .select::selection{
+    border-bottom: 1.8px solid #007bff;
+    background-color: blue;
+}
+.select::placeholder{
+    border-bottom: 1.8px solid #007bff;
+    background-color: blue;
+} */
+
+span{
+    text-align: end;
+    font-size: 0.75rem;
+    color: #4186ff;
+    font-weight: 600;
+    padding: 5px 30px;
+}
+.btn{
+    border-radius: 3px;
+    padding: 5px;
+    width: 87px;
+    background-color: #007bff;
+    border: none;
+    margin: 15px 30px;
+    color: white;
+}
+.or{
+    font-size: .7rem;
+    text-align: center;
+    margin: 10px;
+    color: grey;
+}
+.btn2{
+    padding: 3px;
+    width: 72px;
+    margin: 5px;
+    height: 37px;
+    background-color: white;
+    border: 0.3px solid grey;
+    border-radius: 5px;
+}
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.card-sign{
+    display: block;
+    font-size: .85rem;
+    padding: 32px;
+    width: 232px;
+    height: 264px;
+}
+.card-sign button{
+    background-color: white;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+.card-log button{
+    background-color: white;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+.card-log{
+    display: none;
+    font-size: .85rem;
+    padding: 32px;
+    height: 271px;
+    width: 232px;
+}
+.item2{
+    transition: all 1s ease-in-out;
+    /* animation: animate 2s linear; */
+    background-color: white;
+    box-shadow: 1px 1px 11px 0px grey;
+    border-radius: 2px;
+  
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login and sign up form</title>
+    style
+       include ../static/t27.css
+    //- style 
+    //-    include https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+</head>
+<body>
+    <div class="container">
+    <div class="item1">
+        <div class="card1">
+            <div class="l-1">Login</div>
+            <div class="form">
+                <form action="/" method="post">
+                   <div class="f1">@<input type="text" name="email" placeholder="Enter your e-mail"></div> 
+                    <div class="f1"><i style="font-size:24px" class="fa">&#xf023;</i><input type="password" name="password" placeholder="Enter your password"></div>
+                    <span>Forgot password?</span>
+                </div>
+                <button class="btn">Login</button>
+            </form>
+            <div class="or">or login with</div>
+            <div class="more">
+                <button class ="btn2"><img src="../static/search.png" alt=""></button>
+                <button class ="btn2"><img src="../static/facebook (1).png" alt=""></button>
+                <button class ="btn2"><img src="../static/apple-logo.png" alt=""></button>
+            </div>
+        </div>
+        <div class="card2">
+            <div class="l-1">Sign up</div>
+            <div class="more">
+                <button class ="btn2"><img src="../static/search.png" alt=""></button>
+                <button class ="btn2"><img src="../static/facebook (1).png" alt=""></button>
+                <button class ="btn2"><img src="../static/apple-logo.png" alt=""></button>
+            </div>
+            <div class="or">or sign up with</div>
+            <div class="form">
+                <form action="/">
+                  <div class="f1"><input type="text" name="email" placeholder="Enter your e-mail"></div> 
+                   <div class="f1"><input type="text" name="name" placeholder="Enter your name"></div>
+                   <div class="f1"><input type="text" name="password" placeholder="Enter your password"></div>
+                    <div class="f1"><input type="text" name="password" placeholder="Confirm your password"></div>
+                </form>
+            </div>
+            <button class="btn">Sign up</button>
+        </div>
+    </div>
+    <div class="item2">
+        <div class="card-sign">
+            <p>Don't have an account ?<button class="btn-sign">sign up</button></p>
+        </div>
+        <div class="card-log">
+           <p>Already a member ?<button class="btn-log">log in</button></p>
+        </div>
+    </div>
+    </div>
+</body>
+    script 
+       include ../static/t27.js
+</html>
